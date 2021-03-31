@@ -51,4 +51,3 @@ output "public_ip" {
 output "public_dns" {
   value = module.server.public_dns
 }
-
