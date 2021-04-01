@@ -17,7 +17,7 @@ variable "subnet_id" {
 }
 
 variable "identity" {
-
+  default = "Dave"
 }
 
 variable "vpc_security_group_ids" {
